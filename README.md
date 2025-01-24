@@ -10,4 +10,4 @@ Acá encontrarás una recopilación de laboratorios relacionados a vulnerabilida
 
 | 💥 Vulnerabilidad | 📚 Explicación | 🧪 Lanzboratorio | 📎 Descargar (`md5sum` valida integridad) |
 | :---: | :---: | :---: | :---: |
-| SQL Injection Basada en Errores | [sqli-error-based](https://lanzt.github.io/article/sqli-error-based) | [SQL Injection - Error Based](https://github.com/lanzt/Lanzboratorios/tree/main/SQL%20Injection%20-%20Error%20Based) | [b5dfee7cad322e352f24bb34eea35d2b](https://github.com/lanzt/Lanzboratorios/blob/main/SQL%20Injection%20-%20Error%20Based/lanzb-sql-injection-error-based.zip)
+| Inyección SQL Basada en Errores | [sqli-error-based](https://lanzt.github.io/article/sqli-error-based) | [SQL Injection - Error Based](https://github.com/lanzt/Lanzboratorios/tree/main/SQL%20Injection%20-%20Error%20Based) | [b5dfee7cad322e352f24bb34eea35d2b](https://github.com/lanzt/Lanzboratorios/blob/main/SQL%20Injection%20-%20Error%20Based/lanzb-sql-injection-error-based.zip)
