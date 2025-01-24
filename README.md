@@ -8,4 +8,4 @@ Acá encontrarás una recopilación de laboratorios relacionados a vulnerabilida
 
 | 💥 Vulnerabilidad | 📚 Explicación | 🧪 Lanzboratorio pa practicar |
 | :---: | --- | --- |
-| Hola | [Que](#) | Pasa |
+| SQL Injection Basada en Errores | [sqli-error-based](https://lanzt.github.io/article/sqli-error-based) | [SQL Injection - Error Based](https://github.com/lanzt/Lanzboratorios/tree/main/SQL%20Injection%20-%20Error%20Based) |
