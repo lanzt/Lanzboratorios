@@ -1,0 +1,36 @@
+<%- include('partials/header'); %>
+
+<div class="container">
+    <h1>Acuerdos</h1>
+
+    <% if(visualizar) { %>
+        <form method="GET" action="/normatividad">
+            <input type="text" name="search" placeholder="Filtrar" />
+            <button type="submit">Buscar</button>
+        </form>
+        <div class="grid">
+            <% for(let i=0; i < acuerdos.length; i++) { %>
+                <div class="grid-item">
+                    <h4><%= acuerdos[i].fileTitle %></h4>
+                    <p><%= acuerdos[i].fileContent %></p>
+                    <a
+                        href="/normatividad/archivos/visualizar?acuerdo=<%= `${acuerdos[i].fileTitle}.txt` %>"
+                        >Visualizar</a
+                    >
+                </div>
+            <% } %>
+        </div>
+    <% } else { %>
+        <a href="/normatividad">Volver</a>
+        <div class="grid">
+            <% for(let i=0; i < acuerdos.length; i++) { %>
+                <div class="grid-item">
+                    <h4><%= acuerdos[i].fileTitle %></h4>
+                    <p><%= acuerdos[i].fileContent %></p>
+                </div>
+            <% } %>
+        </div>
+    <% } %>
+</div>
+
+<%- include('partials/footer'); %>

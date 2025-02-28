@@ -1,0 +1,14 @@
+services:
+  container_node_app:
+    build:
+      context: ./app
+
+  container_nginx:
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - container_node_app
+    links:
+      - container_node_app

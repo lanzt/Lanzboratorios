@@ -1,0 +1,27 @@
+<%- include('partials/header'); %>
+
+<div class="container">
+    <h1 class="page-title">Regulación</h1>
+    <p class="intro-text">
+        Aquí encontrarás toda la documentación relacionada con la regulación y
+        las normas que seguimos en el Centro Médico Ichiban.
+    </p>
+
+    <ul class="file-list">
+        <% for(let i=0; i < files.length; i++) { %>
+        <li class="file-item">
+            <a
+                href="/regulacion/archivos/descargar?nombreArchivo=<%= files[i] %>"
+                target="_blank"
+            >
+                <div class="file-icon">
+                    <i class="fa fa-file-pdf-o"></i>
+                </div>
+                <div class="file-name"><%= files[i] %></div>
+            </a>
+        </li>
+        <% } %>
+    </ul>
+</div>
+
+<%- include('partials/footer'); %>
